@@ -1,4 +1,4 @@
-package com._2ntech.news.stepdefinetions;
+package com._2ntech.news.stepdefinitions;
 
 import com._2ntech.news.utilities.Driver;
 import io.cucumber.java.After;
@@ -7,13 +7,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
-    public void setupScenario(){
-        System.out.println("== Setting up browser using cucumber @Before");
-    }
-    //  @Before (value = "@login",order=1)
-    public void setupScenarioForLogins(){
-        System.out.println("== this will only apply to scenarios with @login tag");
-    }
 
 
     @After

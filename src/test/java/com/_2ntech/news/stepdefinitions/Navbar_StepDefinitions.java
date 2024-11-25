@@ -1,4 +1,4 @@
-package com._2ntech.news.stepdefinetions;
+package com._2ntech.news.stepdefinitions;
 
 import com._2ntech.news.page._2ntechPage;
 import com._2ntech.news.utilities.Driver;
@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-public class Navbar_StepDefinations {
+public class Navbar_StepDefinitions {
     com._2ntech.news.page._2ntechPage _2ntechPage = new _2ntechPage();
 
     @Given("kullanıcı {string} adresine gider")

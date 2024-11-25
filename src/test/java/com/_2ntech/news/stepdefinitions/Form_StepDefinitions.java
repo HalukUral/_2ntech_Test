@@ -1,4 +1,4 @@
-package com._2ntech.news.stepdefinetions;
+package com._2ntech.news.stepdefinitions;
 import com._2ntech.news.page.formPage;
 import com._2ntech.news.utilities.Driver;
 import io.cucumber.datatable.DataTable;
@@ -7,11 +7,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.WebElement;
 
 import java.util.Map;
 
-public class Form_StepDefinations {
+public class Form_StepDefinitions {
     formPage formPage = new formPage();
 
     @Given("kullanıcı {string} adresine gitsin")

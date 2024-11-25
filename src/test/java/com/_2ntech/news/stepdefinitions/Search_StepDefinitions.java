@@ -1,4 +1,4 @@
-package com._2ntech.news.stepdefinetions;
+package com._2ntech.news.stepdefinitions;
 
 import com._2ntech.news.page._2ntechPage;
 import com._2ntech.news.utilities.Driver;
@@ -10,10 +10,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 public class Search_StepDefinitions {
     com._2ntech.news.page._2ntechPage _2ntechPage = new _2ntechPage();
